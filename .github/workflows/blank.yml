@@ -25,7 +25,7 @@ jobs:
         run: python -m pip install pytest coverage
       - name: Test with pytest
         run: |
-          coverage run https://github.com/AlexanderPBogatyrev/geometric_lib/blob/new_features_465237/tests.py
+          coverage run tests.py
       - name: Tests report
         run: coverage report
         
@@ -41,6 +41,6 @@ jobs:
         run: python -m pip install pytest coverage
       - name: Test with pytest
         run: |
-          coverage run https://github.com/AlexanderPBogatyrev/geometric_lib/blob/new_features_465237/tests.py
+          coverage run tests.py
       - name: Tests report
         run: coverage report
